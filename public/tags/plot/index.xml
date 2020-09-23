@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>plot on A Hugo website</title>
+    <link>/tags/plot/</link>
+    <description>Recent content in plot on A Hugo website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 23 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/plot/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Online Web CES Data Exploration</title>
+      <link>/2020/09/23/online-web-ces-data-exploration/</link>
+      <pubDate>Wed, 23 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/09/23/online-web-ces-data-exploration/</guid>
+      <description>Introduction The data is from 2019 Canadian Election Study, specifically we used the 2019 CES Online Web Survey data to investigate anything interesting about the data. We explored the relationship between three variables that we are interested in which are age of survey participants, time duration of the survey and the main languages spoken by the participants.
+By plotting the scatter plot of Duration versus Age in 2019 Web CES for English and French speakers, we noticed that, on average, French speakers had taken more time on the survey compared to English speakers.</description>
+    </item>
+    
+  </channel>
+</rss>
