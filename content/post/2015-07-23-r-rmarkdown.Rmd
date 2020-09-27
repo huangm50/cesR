@@ -115,6 +115,9 @@ From our sample, we noticed that French speakers had taken more time on the surv
 
 My weaknesses include that some of my findings are still required more check such as finding of potential confounding and lurking variables that we did not take into account. Further work can be done to fit models with even more variables.
 
+# Blog Link
+
+https://github.com/huangm50/cesR
 
 
 # References
