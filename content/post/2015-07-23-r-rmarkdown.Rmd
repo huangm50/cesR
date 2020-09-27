@@ -1,16 +1,21 @@
 ---
 title: "Online Web CES Data Exploration"
 author: "Michellev Huang"
-date: 2020-09-23
-abstract: "I did some analysis on the 2019 CES Online Web Survey data. I explored the relationship between three variables that I am interested in."
-categories: ["R"]
-tags: ["R Markdown", "plot", "regression"]
+date: '2020-09-23'
+categories: R
+tags:
+- R Markdown
+- plot
+- regression
 ---
 
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(collapse = TRUE)
 ```
+
+# Abstract
+Data analysis on the 2019 CES Online Web Survey data. We explored the relationship between three variables that I am interested in, and found French speakers had taken more time on the survey compared to English speakers; elderly participants in the survey that speak English tend to take less time as age increases.
 
 # Introduction
 
@@ -22,8 +27,8 @@ This paper is mainly discussed three variables in the data set, however, there a
 
 
 ```{r download, warning=FALSE, message=FALSE, echo = FALSE, results='hide'}
-install.packages("devtools")
-devtools::install_github("hodgettsp/cesR")
+# install.packages("devtools")
+# devtools::install_github("hodgettsp/cesR")
 cesR::get_ces("ces2019_web")
 ```
 
